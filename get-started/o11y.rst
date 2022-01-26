@@ -1,0 +1,130 @@
+.. _get-started-o11y:
+
+******************************************************
+Get started with Splunk Observability Cloud
+******************************************************
+
+.. meta::
+   :description: Learn how to get started with Splunk Observability Cloud in five steps.
+
+This topic covers five high-level steps you can follow to get started with Splunk Observability Cloud and its products, which include:
+
+- Splunk Infrastructure Monitoring
+
+- Splunk Application Performance Monitoring (APM)
+
+- Splunk Real User Monitoring (RUM)
+
+- Splunk Log Observer
+
+For an introduction to Observability Cloud products, see :ref:`welcome`.
+
+For information about how these products can be used together to address real-life use cases, see :ref:`get-started-use-case`.
+
+Perform the following steps to set up and make the most of Observability Cloud:
+
+.. image:: /_images/get-started/get-started-5-steps.png
+  :width: 80%
+  :alt: This diagrams provides a high-level view of the 5 steps to getting started with Observability Cloud.
+
+
+.. _get-started-plan:
+
+1. Create a plan and set up your organization
+=================================================
+
+Create a plan for how you want to set up your Observability Cloud organization, and then carry out your plan.
+
+For information about how to plan for and set up your Observability Cloud organization, see :ref:`admin-admin`.
+
+
+.. _get-started-gdi:
+
+2. Get data into Observability Cloud
+=========================================
+
+A key step in getting to full-stack observability is getting data from your environment into Observability Cloud.
+
+For information about how to get data in, see :ref:`get-started-get-data-in`.
+
+As a part of getting data in, make sure to consider bringing in data in a way that enables Related Content, a feature that automatically correlates data between different views within Observability Cloud. When enabled, the Related Content bar displays automatically when a user selects a relevant element and allows them to easily take a data-driven investigative approach.
+
+For example, a user can click options in the Related Content bar to seamlessly navigate between APM, Log Observer, and Infrastructure Monitoring with their selected filters and context automatically applied to each view. For more information, see :ref:`get-started-relatedcontent`.
+
+
+.. _get-started-explore:
+
+3. Explore and analyze your data
+========================================================
+
+Once you have data coming into Observability Cloud, it’s time to do some exploring. For example, you can:
+
+- Use Infrastructure Monitoring to analyze the performance of cloud services, hosts, and containers; view the health of your infrastructure at a glance, and view outlier conditions in your hybrid infrastructure.
+
+    For more information, see :ref:`get-started-infrastructure`.
+
+- Use APM to analyze the performance of applications down to the microservice level, investigate latencies in your application requests, and monitor inbound and outbound dependencies for each service.
+
+    For more information, see :ref:`get-started-apm`.
+
+- Use RUM to analyze the performance of web and mobile applications and keep track of how users are interacting with your front-end services, including page load times and responsiveness.
+
+    For more information, see :ref:`get-started-rum`.
+
+- Use Log Observer to pinpoint interesting log events and troubleshoot issues with your infrastructure and cloud services.
+
+    For more information, see :ref:`get-started-logs`.
+
+- As described in step :ref:`get-started-gdi`, if you enabled Related Content when setting up your data integrations, you can click options in the Related Content bar to seamlessly navigate between APM, Log Observer, and Infrastructure Monitoring with your selected filters and context automatically applied to each view.
+
+- Use the mobile app to check system critical metrics in Observability Cloud on the go, access real-time alerts with visualizations, and view mobile-friendly dashboards.
+
+    For more information, see :ref:`intro-to-mobile`.
+
+
+.. _get-started-customize:
+
+4. Set up alerts and customize your experience
+========================================================
+
+Now that you’ve explored and familiarized yourself with the data you have coming into Observability Cloud, set up detectors to issue alerts about your data and customize your Observability Cloud experience.
+
+- Set up detectors to send alerts when data conditions that are important to you are met.
+
+    For more information, see :ref:`create-detectors`.
+
+- In addition to exploring your data using Infrastructure Monitoring navigators and built-in dashboards, you can also create new dashboards and customize existing ones.
+
+    For more information, see :ref:`dashboard-create-customize`.
+
+- In addition to the built-in data you already have coming into Observability Cloud, you can also bring in custom data.
+
+    For more information, see :ref:`Configure and instrument applications to send custom data <gdi-7>` and :ref:`Use the Observability Cloud API to send custom data <gdi-8>`.
+
+- Customize your APM experience by setting up business workflows and creating span tags that add metadata to traces sent to APM.
+
+    For more information, see :ref:`apm-workflows` and :ref:`apm-add-context-trace-span`.
+
+- Customize your logs pipeline to add value to your raw logs.
+
+    For more information, see :ref:`logs-pipeline`.
+
+
+.. _get-started-datalinks:
+
+5. Create global data links
+========================================================
+
+Now that you’ve customized your Observability Cloud experience, create Global Data Links to further enrich the user experience.
+
+Global Data Links provide convenient access to related resources, such as Observability Cloud dashboards, Splunk Cloud Platform and Splunk Enterprise, custom URLs, and Kibana logs in the context of the following locations in Observability Cloud:
+
+- Dashboards
+
+- Alerts
+
+- APM
+
+- Infrastructure Monitoring navigators
+
+For more information, see :ref:`link-metadata-to-content`.
